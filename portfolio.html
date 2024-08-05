@@ -3,163 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Portfolio</title>
+    <title>Saad Pasta - Portfolio</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://example.com/background-image.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-            color: #333;
-        }
-        header, section, footer {
-            padding: 40px 20px;
+            background-color: #f0f0f0;
         }
         header {
-            background: linear-gradient(135deg, #6e8efb, #a777e3);
-            color: #fff;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .project {
-            margin-bottom: 40px;
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
-        }
-        .project:hover {
-            transform: translateY(-5px);
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-        }
-        h1, h2, h3 {
-            color: #4a4a4a;
-        }
-        a {
-            color: #6e8efb;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: #a777e3;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #6e8efb;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .btn:hover {
-            background-color: #a777e3;
-        }
-        #skills ul {
             display: flex;
-            flex-wrap: wrap;
-            list-style-type: none;
-            padding: 0;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: white;
         }
-        #skills li {
-            background-color: #f0f0f0;
-            margin: 5px;
-            padding: 10px;
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6c2bd9;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .text-content {
+            width: 50%;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+        }
+        .social-icons a {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #6c2bd9;
+            color: white;
+            text-decoration: none;
             border-radius: 5px;
+            margin-right: 10px;
+        }
+        .image-content {
+            width: 40%;
+        }
+        .image-content img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Your Name</h1>
-            <p>Web Developer | Designer | Creative Thinker</p>
-        </div>
+        <div class="logo">&lt; Saad Pasta /&gt;</div>
+        <nav>
+            <a href="#skills">Skills</a>
+            <a href="#open-source">Open Source</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#talks">Talks</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
     </header>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <img src="your-image.jpg" alt="Your Name">
-            <p>Write your short bio here, highlighting your skills and experience. Make it engaging and personal to capture the reader's attention.</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Responsive Design</li>
-                <li>UI/UX Design</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Git</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project Title 1</h3>
-                <img src="project1-image.jpg" alt="Project 1">
-                <p>Description of Project 1. Explain the challenge, your approach, and the outcome.</p>
-                <a href="#" class="btn">View Project</a>
+    <div class="main-content">
+        <div class="text-content">
+            <h1>Hi all I'm Saad 👋</h1>
+            <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks</p>
+            <div class="social-icons">
+                <!-- Add icons here -->
             </div>
-            <div class="project">
-                <h3>Project Title 2</h3>
-                <img src="project2-image.jpg" alt="Project 2">
-                <p>Description of Project 2. Highlight your role and the technologies used.</p>
-                <a href="#" class="btn">View Project</a>
+            <div class="buttons">
+                <a href="#contact" class="button">CONTACT ME</a>
+                <a href="#resume" class="button">SEE MY RESUME</a>
             </div>
         </div>
-    </section>
-
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>Download my resume to learn more about my experience and qualifications.</p>
-            <a href="your-resume.pdf" download class="btn">Download Resume (PDF)</a>
+        <div class="image-content">
+            <img src="developer-illustration.png" alt="Developer Illustration">
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>Phone: (123) 456-7890</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
